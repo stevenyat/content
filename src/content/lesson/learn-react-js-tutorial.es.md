@@ -64,7 +64,7 @@ Recuerda, que en JSX/React el código dinámico JS dentro del código de HTML (c
 ```jsx
 return <h1 id="name"> {if(person.name == "John") "John"; else "Tom" } </h1>; // No funciona en JSX
 
-return <h1 id="name"> {person.name == "John" ? "John" : "Tom" } </h1>; // Funciona en JSX y evualará a <h1 id="name"> John </h1> o a <h1 id="name"> Tom </h1> dependiendo del valor de person.name 
+return <h1 id="name"> {person.name == "John" ? "John" : "Tom" } </h1>; // Funciona en JSX y evaluará a <h1 id="name"> John </h1> o a <h1 id="name"> Tom </h1> dependiendo del valor de person.name 
 ```
 
 
